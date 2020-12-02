@@ -1,11 +1,26 @@
+<!--
+ * @Description: 编辑。
+ * @Date: 2020-03-19 09:00:26
+ * @Author: KnowsCount
+ * @Github: https://github.com/KnowsCount/NKCS-Storage
+ * @LastEditTime: 2020-12-02 16:42:23
+ * @FilePath: /vuepress-theme-terminal-master/Layout.vue
+-->
 <template>
 	<div class="terminal__container">
 		<div style="display: flex; justify-content: center">
 			<div id="terminal-mount"></div>
 		</div>
-		<i class="info-button fas fa-info-circle" @click="open = true"></i>
+		<i class="info-button fab fa-github" @click="open = true"></i>
 		<model v-model="open">
-			<i class="fas fa-globe icon-text"></i> of
+			<a
+				class="link"
+				href="https://github.com/KnowsCount/portfolio"
+				target="_blank"
+			>
+				<i class="fab fa-github"></i>&nbsp;repo
+			</a>
+			&nbsp;or
 			<a
 				class="link"
 				href="https://github.com/knowscount"
