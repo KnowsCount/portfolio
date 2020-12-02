@@ -9,5 +9,5 @@
 
 # KnowsCount's Portfolio
 
-try it out yourself.
-vuepress-theme-terminal Author: [jsmith](https://github.com/jsmith)
+try it out yourself. 
+uses vuepress.
