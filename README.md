@@ -15,7 +15,7 @@
 
 ## Hi. | 氦。
 
-There were no time at all for this these days.. yet – as it shouldn't consume too much time – I found time and now started writing this.
+I did not have enough time at all to write this... yet bearing in mind the writing of readme shouldn't consume too much time, I'd rather use my spare time to write this as it would be easier for you.
 
 之前确乎是没有甚么极多的时间来写这个的，不过今天一想 readme 的写作确凿不会消费太多的时间，于是就腾出点时间写。
 

@@ -1,3 +1,5 @@
+# for github
+
 dev:
 	npm run dev
 
