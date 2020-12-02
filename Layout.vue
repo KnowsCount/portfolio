@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/NKCS-Storage
- * @LastEditTime: 2020-12-02 16:42:23
+ * @LastEditTime: 2020-12-02 20:47:56
  * @FilePath: /vuepress-theme-terminal-master/Layout.vue
 -->
 <template>
@@ -50,8 +50,8 @@ export default {
 					[this.data.user]: {
 						projects: this.projects,
 						".bashrc": 'cd ~\nalias ll="ls -l"',
-						"About.txt": this.data.about,
-						"Socials.txt": this.socials,
+						"about.txt": this.data.about,
+						"socials.txt": this.socials,
 					},
 				},
 			};
