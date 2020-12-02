@@ -1,28 +1,36 @@
+<!--
+ * @Description: My personal portfolio. 我的个人主页。
+ * @Date: 2020-03-19 09:00:26
+ * @Author: KnowsCount
+ * @Github: https://github.com/KnowsCount/NKCS-Storage
+ * @LastEditTime: 2020-12-02 18:51:22
+ * @FilePath: /vuepress-theme-terminal-master/Modal.vue
+-->
 <template>
-  <transition name="modal" v-if="value">
-    <div class="modal-mask">
-      <div class="modal-wrapper">
-        <div class="modal-container">
-          <div class="modal-body flex">
-            <slot></slot>
-          </div>
+	<transition name="modal" v-if="value">
+		<div class="modal-mask">
+			<div class="modal-wrapper">
+				<div class="modal-container">
+					<div class="modal-body flex">
+						<slot></slot>
+					</div>
 
-          <div class="modal-footer flex">
-            <button class="close" @click="$emit('input', false)">
-              Close
-            </button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </transition>
+					<div class="modal-footer flex">
+						<button class="close" @click="$emit('input', false)">
+							Close
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</transition>
 </template>
 
 <script>
 export default {
-  name: 'Modal',
-  props: { value: Boolean }
-}
+	name: "Modal",
+	props: { value: Boolean },
+};
 </script>
 
 <style scoped lang="stylus">
