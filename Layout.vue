@@ -82,7 +82,7 @@ export default {
 		// We have to import vue-terminal here because it tries to access global variables (`window` I think).
 		// This causes an issue with vue-press during compilation
 		// eslint-disable-next-line
-		import("@jsmith21/vue-terminal").then(({ default: plugin }) => {
+		import("@knowscount/vue-terminal").then(({ default: plugin }) => {
 			console.log(plugin);
 			Vue.use(plugin);
 			const Terminal = plugin.Terminal;

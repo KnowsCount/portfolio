@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/portfolio
- * @LastEditTime: 2020-12-03 07:46:15
+ * @LastEditTime: 2020-12-03 10:36:35
  * @FilePath: /vuepress-theme-terminal-master/README.md
 -->
 
@@ -17,7 +17,7 @@
 
 I did not have enough time at all to write this... yet bearing in mind the writing of `README` shouldn't consume too much of my time, I'd rather use my spare time to write this as it would be easier for you.
 
-之前确乎是没有甚么极多的时间来写这个的，不过今天一想 `README` 的写作确凿不会消费太多的时间，于是乎就腾出点时间写，以方便诸位。
+之前确乎是没有甚么极多的时间来写这个的，不过今天一想 `README` 的写作确凿不会消费太多的时间，于是乎就腾出点时间写，以便利诸位。
 
 ---
 
@@ -33,7 +33,11 @@ git clone https://github.com/KnowsCount/portfolio
 
 ```
 npm i
-//or
+```
+
+or
+
+```
 cnpm i //in 🇨🇳China if you'd like
 ```
 
@@ -51,7 +55,7 @@ npm run dev
 npm run build
 ```
 
-The build should be stored in `./docs`
+###### The build should be stored in `./docs`
 
 ### 📤 Deploy | 部署
 
