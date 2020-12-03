@@ -9,7 +9,7 @@
 	},
 	"dependencies": {
 		"vue": "^2.6.11",
-		"@knowscount/vue-terminal": "^1.0.0"
+		"@knowscount/vue-terminal": "^1.0.1"
 	},
 	"devDependencies": {
 		"@vue/cli-plugin-babel": "^3.0.0",

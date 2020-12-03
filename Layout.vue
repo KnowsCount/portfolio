@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/NKCS-Storage
- * @LastEditTime: 2020-12-03 07:24:21
+ * @LastEditTime: 2020-12-03 21:04:15
  * @FilePath: /vuepress-theme-terminal-master/Layout.vue
 -->
 <template>
@@ -11,7 +11,8 @@
 		<div style="display: flex; justify-content: center">
 			<div id="terminal-mount"></div>
 		</div>
-		<i class="info-button fab fa-github" @click="open = true"></i>
+		<i class="github-button fab fa-github" @click="open = true"></i>
+		<i class="info-button fas fa-info-circle" @click="info = true"></i>
 		<model v-model="open">
 			<a
 				class="link"
@@ -28,6 +29,10 @@
 			>
 				@KnowsCount</a
 			>
+			<!-- did it this way to make the format look better-->
+		</model>
+		<model v-model="info">
+			<p>foo</p>
 		</model>
 	</div>
 </template>
@@ -119,9 +124,17 @@ export default {
     padding: 0
     margin: 0 15px
 
-  .info-button
+  .github-button
     position absolute
     top 10px
+    right 12px
+    color rgb(30, 31, 41)
+    opacity 0.4
+    font-size 1.3em
+
+  .info-button
+    position absolute
+    bottom 10px
     right 12px
     color rgb(30, 31, 41)
     opacity 0.4
