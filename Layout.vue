@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/NKCS-Storage
- * @LastEditTime: 2020-12-02 20:47:56
+ * @LastEditTime: 2020-12-03 07:24:21
  * @FilePath: /vuepress-theme-terminal-master/Layout.vue
 -->
 <template>
@@ -79,8 +79,7 @@ export default {
 		},
 	},
 	mounted() {
-		// We have to import vue-terminal here because it tries to access
-		// global variables (`window` I think).
+		// We have to import vue-terminal here because it tries to access global variables (`window` I think).
 		// This causes an issue with vue-press during compilation
 		// eslint-disable-next-line
 		import("@jsmith21/vue-terminal").then(({ default: plugin }) => {
