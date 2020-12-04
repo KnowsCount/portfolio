@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/portfolio
- * @LastEditTime: 2020-12-03 10:36:35
+ * @LastEditTime: 2020-12-05 06:24:13
  * @FilePath: /vuepress-theme-terminal-master/README.md
 -->
 
@@ -35,10 +35,10 @@ git clone https://github.com/KnowsCount/portfolio
 npm i
 ```
 
-or
+or in 🇨🇳China if you'd like | 如果在中国可以尝试
 
 ```
-cnpm i //in 🇨🇳China if you'd like
+cnpm i
 ```
 
 ### 📜 Scripts | 脚本
@@ -64,10 +64,10 @@ npm run build
 
 ### 📌 To-dos | 计画
 
--   [ ] 更好（甚至说更多）的界面
--   [ ] 更好的 UX
--   [ ] 对非程序员或 Unix 使用者更加友好
--   [ ] 更多关于我的内容
+-   [ ] Better (or more) Interfaces | 更好（甚至说更多）的界面
+-   [ ] Better UX | 更好的 UX
+-   [ ] Simpler for Non-Programmer & Non-Unix Users | 对非程序员或非 Unix 使用者更加友好
+-   [ ] More About Me | 更多关于我的内容
 
 ---
 
