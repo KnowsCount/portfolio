@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/NKCS-Storage
- * @LastEditTime: 2020-12-05 11:24:41
+ * @LastEditTime: 2020-12-05 12:09:12
  * @FilePath: /vuepress-theme-terminal-master/Layout.vue
 -->
 <template>
@@ -17,6 +17,7 @@
 			href="https://github.com/knowscount/portfolio"
 			class="github-corner"
 			aria-label="View source on GitHub"
+			target="_blank"
 			><svg
 				width="80"
 				height="80"
