@@ -3,7 +3,7 @@
  * @Date: 2020-03-19 09:00:26
  * @Author: KnowsCount
  * @Github: https://github.com/KnowsCount/portfolio
- * @LastEditTime: 2020-12-05 06:24:13
+ * @LastEditTime: 2020-12-05 12:29:08
  * @FilePath: /vuepress-theme-terminal-master/README.md
 -->
 
@@ -49,13 +49,15 @@ cnpm i
 npm run dev
 ```
 
+###### Runs on [localhost:8080](127.0.0.1:8080]) | 在 [localhost:8080](127.0.0.1:8080]) 上运行
+
 2. 🛠 Build
 
 ```
 npm run build
 ```
 
-###### The build should be stored in `./docs`
+###### The build should be stored in `./docs` | 打包内容应在 `./docs` 目录下
 
 ### 📤 Deploy | 部署
 
